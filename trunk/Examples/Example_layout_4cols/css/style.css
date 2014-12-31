@@ -1,0 +1,41 @@
+body{
+	background:pink;
+}
+.container{
+	width: 500px;
+	margin: 0 auto;
+}
+.container > h3{
+	text-align: center;
+}
+.cols_wrapper{
+	background: #19CCB5;
+	height: 200px;
+}
+.header, .footer{
+	background: #B4B7B6;
+	height: 40px;
+	text-align: center;
+	padding: 25px 0px 0px;
+}
+.cols_wrapper > div{
+	float:left;
+	width: 105px;
+	height: 100%;
+	padding: 10px;
+	line-height: 220px;
+	text-align: center;
+	
+}
+.item1{
+	background: #FFF;
+}
+.item2{
+	background: #59170D;
+}
+.item3{
+	background: #19CCB5;
+}
+.item4{
+	background: blue;
+}
