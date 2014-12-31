@@ -1,0 +1,31 @@
+﻿PTS:
+1. Cắt ảnh từ file psd:
+	- Save: + Save for web...
+		+ Chọn tab Orginal
+		+ Nếu cần tranparent thì chọn PNG-24, ko thì chọn JPG
+		+ Nhấn Save... => Chọn Selected Slices
+2. Xem size của layer: 
+	- Click chọn layer: (V => Ctrl + Click)
+	- Ctrl + T
+	- Nhấn F8
+3. Ctrl + D: unselect (Bỏ vùng chọn)
+==========================================================================
+CSS: 
+- Define general font: 
+	- font có chân: sans-serif; có chân: serif;
+- Canh giữa cho tag: 
+	- set width cố định: vd: width: 79%
+	- set cho tag: {width: 79%; margin: 0 auto;} /* container align center */
+- float left/right => clear
+- Color: #fffff = #fff; #ddaacc = #dac;
+- font-weith: bold => 700; (nếu dùng bold IE lỗi)
+- { background: url('../images/menu_bg.jpg') repeat-x 0 0 transparent; } => 0 0 là position background; transparent là bg k màu.
+- input: k dùng height, mà dùng padding
+
+HTML: 
+1. 	<label for="email">Email Address</label>
+	<input type="text" name="email" id="email"/>
+==> for="email" : remember me ; for đùng cho id
+==========================================================================
+Notes: 
+- Sửa lại html css input form signup	

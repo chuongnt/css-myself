@@ -1,0 +1,110 @@
+@font-face {
+  font-family: 'Calibri Regular';
+  src: url('../fonts/Calibri/calibri.eot');
+  src: url('../fonts/Calibri/calibri.eot') format('embedded-opentype'),
+  url('../fonts/Calibri/calibri.woff') format('woff'),
+  url('../fonts/Calibri/calibri.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Calibri Bold';
+  src: url('../fonts/Calibri/calibrib.eot');
+  src: url('../fonts/Calibri/calibrib.eot') format('embedded-opentype'),
+  url('../fonts/Calibri/calibrib.woff') format('woff'),
+  url('../fonts/Calibri/calibrib.ttf') format('truetype');
+}
+
+body {
+	background: #fff;
+	margin: 0;
+	padding: 0;
+}
+*
+{
+	font-family: 'Calibri Regular', sans-serif;
+}
+ul, li {
+	margin: 0;
+	padding: 0;
+}
+div, td
+{
+	margin: 0;
+	padding: 0;
+}
+.clear {
+	clear: both;
+}
+#header {	
+	background: url('../images/header_bg.jpg') repeat-x transparent;
+}
+#container {
+	height: 500px; /* temp */
+	background: #E9EAEA; /* temp */
+}
+#footer {
+	height: 40px;
+	background: #B3B3B4; /* temp */
+}
+.clear { clear: both; }
+.holder { 
+	width: 960px;
+	margin: 0 auto; /* container align center */
+}
+/* header */
+#header, .header_wrapper {
+	height: 400px;
+}
+.header_wrapper {
+	background: url('../images/header_lightning.png') repeat-x transparent;
+}
+.logo {
+	float: left;
+	margin-top: 52px;
+}
+.search {
+	float: right;
+	margin-top: 66px;
+}
+.search_btn {
+	background: url('../images/search_button.png') no-repeat transparent;
+	width: 54px;
+	height: 54px;
+	border: 0;
+	float: left;
+	position: relative;
+}
+#search_field {
+	padding: 7px 6px 8px 25px;
+	background: url('../images/search_input_bg.jpg') repeat-x;
+	border: 0;
+	border-radius: 10px;
+	margin-top: 12px;
+	float: left;
+	width: 229px;
+	margin-left: -20px;
+	color: #777777;
+	font-size: 14px;
+}
+/* main menu */
+#main-menu {
+	margin: 0 auto;
+	width: 860px;
+}
+#main-menu > ul {
+	border-bottom: 5px solid #fff;
+	padding: 0px 25px 15px;
+}
+#main-menu > ul > li {
+	float: left;
+	list-style-type: none;
+	padding: 0px 25px;
+}
+#main-menu > ul > li a:link, #main-menu > ul > li a:visited {
+	display: block;
+	color: #E2E1E2;
+	text-decoration: none;
+	font-size: 20px;
+}
+#main-menu > ul > li a:hover {
+	color: #fff;
+}
