@@ -10,9 +10,36 @@
 	- Nhấn F8
 3. Ctrl + D: unselect (Bỏ vùng chọn)
 ==========================================================================
+Fonts: 
+0. Define general font: 
+	- font không có chân: sans-serif; 
+	- font có chân: serif;
+1. Import fonts:
+	1.1. Kiểm tra trên google fonts xem có chưa?
+	1.2. Nếu có thì dùng cách import link google font.
+		<link href='http://fonts.googleapis.com/css?family=Bonbon' rel='stylesheet' type='text/css'>
+	1.3. Nếu chưa có thì search và down font về và import vào:
+		- Bước 1: Convert font sang đuôi .eot, .woff, .ttf
+		- Bước 2: Copy đoạn sau vào file .css => sửa lại tên font và path
+			// import Regular font: calibri
+			@font-face {
+				font-family: 'Calibri Regular';
+				src: url('../fonts/Calibri/calibri.eot');
+				src: url('../fonts/Calibri/calibri.eot') format('embedded-opentype'),
+				url('../fonts/Calibri/calibri.woff') format('woff'),
+				url('../fonts/Calibri/calibri.ttf') format('truetype');
+			}
+			// import Bold font: calibrib
+			@font-face {
+				font-family: 'Calibri Bold';
+				src: url('../fonts/Calibri/calibrib.eot');
+				src: url('../fonts/Calibri/calibrib.eot') format('embedded-opentype'),
+				url('../fonts/Calibri/calibrib.woff') format('woff'),
+				url('../fonts/Calibri/calibrib.ttf') format('truetype');
+			}
+			
+==========================================================================
 CSS: 
-- Define general font: 
-	- font có chân: sans-serif; có chân: serif;
 - Canh giữa cho tag: 
 	- set width cố định: vd: width: 79%
 	- set cho tag: {width: 79%; margin: 0 auto;} /* container align center */
