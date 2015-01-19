@@ -36,6 +36,8 @@ div, td
 	margin: 0 auto; /* container align center */
 }
 
+
+
 /*****
 **
 HEADER
@@ -46,8 +48,8 @@ HEADER
 	background: url('../images/header_bg.jpg') no-repeat 0 0;
 }
 #container {
-	height: 500px; /* temp */
-	background: #E9EAEA; /* temp */
+	background: #71c0c5; /* temp */
+	min-height: 380px;
 }
 .logo {
 	font-family: 'Edwardian Regular';
@@ -64,32 +66,98 @@ HEADER
 
 /*****
 **
+CONTAINER
+**
+******/
+.content {
+	padding: 5px 15px 10px 10px;
+	font-size: 10px;
+	border-radius: 10px;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.title {
+	font-family: 'Edwardian Regular';
+	font-size: 30px;
+	font-weight: normal;
+}
+.title_wrapper {
+	margin-bottom: 8px;
+}
+.title_wrapper > img {
+	float: left;
+	margin-right: 7px;
+}
+
+#container p {
+	line-height: 12px;
+}
+#container > .holder_inner > .left {
+	background: url(../images/content_bg.png) repeat;
+	width: 58%;
+	margin-top: -13px;
+}
+#container > .holder_inner > .right {
+	background: url(../images/content_bg.png) repeat;
+	width: 33%;
+	min-height: 209px;
+	margin-top: -13px;
+}
+#container > .holder_inner > .bottom {
+	background: url(../images/content_bg.png) repeat;
+	margin-top: 10px;
+}
+.bottom > .left {
+	width: 32%;
+}
+.bottom > .middle {
+	float: left;
+	width: 32%;
+}
+.bottom > .right {
+	width: 32%;
+}
+
+
+
+
+/*****
+**
 FOOTER
 **
 ******/
 #footer {
-	height: 40px;  /* temp */
 	background: url('../images/footer_bg.png') #71C0C5;
+	padding-top: 10px;
+	padding-bottom: 15px;
 }
 /* MAIN MENU */
-#main-menu {
-	margin: 0 auto;
-	width: 860px;
+#main-menu {	
+	padding: 20px 0px;
+	background: url(../images/content_bg.png) repeat;
+	border-radius: 10px;
 }
 #main-menu > ul {
-	border-bottom: 5px solid #fff;
-	padding: 0px 25px 15px;
+	padding-left: 50px;
 }
 #main-menu > ul > li {
 	float: left;
 	list-style-type: none;
-	padding: 0px 25px;
+	padding: 0px 25px 0px 20px;
+	font-size: 30px;
+	font-family: 'Edwardian Regular';
+}
+#main-menu > ul > li + li {
+	border-left: #fff 1px solid;
 }
 #main-menu > ul > li a:link, #main-menu > ul > li a:visited {
 	display: block;
-	color: #E2E1E2;
-	text-decoration: none;
-	font-size: 20px;
+	color: #fff;
+	text-decoration: none;	
 }
 #main-menu > ul > li a:hover {
 	color: #fff;

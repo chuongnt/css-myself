@@ -9,6 +9,12 @@
 	- Ctrl + T
 	- Nhấn F8
 3. Ctrl + D: unselect (Bỏ vùng chọn)
+4. Chỉnh hình bị méo vài px:
+	- Chọn vùng cần chỉnh Ctrl + T
+	- Click phải chọn Skew
+	- Kéo 1 góc cần chỉnh để sửa méo
+5.  Nhấn V để select layer. 
+	Select được layer khi Select box ở góc trái trên hiện thị là Layer.	
 ==========================================================================
 Fonts: 
 0. Define general font: 
